@@ -2,7 +2,7 @@ let a = 0;
 
 let b = 15;
 
-let inicio;
+let começo;
 
 let fim;
 
@@ -12,20 +12,20 @@ let soma = 0;
 
 
 if (a < b) {
-    inicio = a;
+    começo = a;
     fim = b;
 } else {
-    inicio = b;
+    começo = b;
     fim = a;
 }
 
-while (inicio <= fim) {
-    if (inicio % 2 == 0) {
-        console.log(inicio)
-        soma = inicio + soma;
+while (começo <= fim) {
+    if (começo % 2 == 0) {
+        console.log(começo)
+        soma = começo + soma;
     }
 
-    inicio++
+    começo++
 
     //exibir soma
 
