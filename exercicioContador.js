@@ -31,7 +31,7 @@ while (inicio <= fim) {
 
 }
 
-console.log(soma)
-console.log("Mensagem final");
+console.log(soma);
+console.log("O código foi concluído");
 
 
