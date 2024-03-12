@@ -32,5 +32,6 @@ while (inicio <= fim) {
 }
 
 console.log(soma)
+console.log("Mensagem final");
 
 
