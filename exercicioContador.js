@@ -32,6 +32,6 @@ while (inicio <= fim) {
 }
 
 console.log(soma);
-console.log("O código foi concluído");
+console.log("Nova mensagem");
 
 
