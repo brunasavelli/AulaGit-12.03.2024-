@@ -2,7 +2,7 @@ let a = 0;
 
 let b = 15;
 
-let começo;
+let inicio;
 
 let final;
 
@@ -12,20 +12,20 @@ let adição = 0;
 
 
 if (a < b) {
-    começo = a;
+    inicio = a;
     final = b;
 } else {
-    começo = b;
+    inicio = b;
     final = a;
 }
 
-while (começo <= final) {
-    if (começo % 2 == 0) {
-        console.log(começo)
-        adição = começo + adição;
+while (inicio <= final) {
+    if (inicio % 2 == 0) {
+        console.log(inicio)
+        adição = inicio + adição;
     }
 
-    começo++
+    inicio++
 
     //exibir adição
 
