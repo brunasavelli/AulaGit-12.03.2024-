@@ -1,6 +1,6 @@
 let a = 0;
 
-let b = 15;
+let b = 20;
 
 let inicio;
 
