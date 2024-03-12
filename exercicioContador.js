@@ -8,7 +8,7 @@ let final;
 
 let par;
 
-let soma = 0;
+let adição = 0;
 
 
 if (a < b) {
@@ -22,15 +22,15 @@ if (a < b) {
 while (começo <= final) {
     if (começo % 2 == 0) {
         console.log(começo)
-        soma = começo + soma;
+        adição = começo + adição;
     }
 
     começo++
 
-    //exibir soma
+    //exibir adição
 
 }
 
-console.log(soma)
+console.log(adição)
 
 
