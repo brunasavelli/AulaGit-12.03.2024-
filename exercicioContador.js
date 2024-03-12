@@ -4,7 +4,7 @@ let b = 15;
 
 let inicio;
 
-let final;
+let fim;
 
 let par;
 
@@ -13,13 +13,13 @@ let adição = 0;
 
 if (a < b) {
     inicio = a;
-    final = b;
+    fim = b;
 } else {
     inicio = b;
-    final = a;
+    fim = a;
 }
 
-while (inicio <= final) {
+while (inicio <= fim) {
     if (inicio % 2 == 0) {
         console.log(inicio)
         adição = inicio + adição;
